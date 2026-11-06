@@ -316,6 +316,7 @@ module.exports = {
   getAllocations,
   autoAllocate,
   manualAllocate,
+  createAllocation: manualAllocate,
   deleteAllocation,
   deleteSessionAllocations,
   getSessionSeatMap,

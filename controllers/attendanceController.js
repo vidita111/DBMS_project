@@ -219,9 +219,34 @@ const getSessionAttendanceStats = asyncHandler(async (req, res) => {
   });
 });
 
+// DELETE /api/attendance/:id
+const deleteAttendance = asyncHandler(async (req, res) => {
+  const [existing] = await pool.query(
+    'SELECT * FROM exam_attendance WHERE attendance_id = ?',
+    [req.params.id]
+  );
+
+  if (existing.length === 0) {
+    throw new ApiError(404, 'Attendance record not found');
+  }
+
+  await pool.query(
+    'DELETE FROM exam_attendance WHERE attendance_id = ?',
+    [req.params.id]
+  );
+
+  res.json({
+    success: true,
+    data: null,
+    message: 'Attendance record deleted successfully',
+  });
+});
+
 module.exports = {
   getAttendance,
   markAttendance,
   bulkMarkAttendance,
   getSessionAttendanceStats,
+  getSessionStats: getSessionAttendanceStats,
+  deleteAttendance,
 };

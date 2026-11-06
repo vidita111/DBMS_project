@@ -13,16 +13,16 @@ const invigilationRoutes = require('./invigilationRoutes');
 const attendanceRoutes = require('./attendanceRoutes');
 const dashboardRoutes = require('./dashboardRoutes');
 
-router.use('/api/auth', authRoutes);
-router.use('/api/students', studentRoutes);
-router.use('/api/faculty', facultyRoutes);
-router.use('/api/rooms', roomRoutes);
-router.use('/api/exams', examRoutes);
-router.use('/api/sessions', sessionRoutes);
-router.use('/api/registrations', registrationRoutes);
-router.use('/api/seat-allocations', seatAllocationRoutes);
-router.use('/api/invigilation', invigilationRoutes);
-router.use('/api/attendance', attendanceRoutes);
-router.use('/api/dashboard', dashboardRoutes);
+router.use('/auth', authRoutes);
+router.use('/students', studentRoutes);
+router.use('/faculty', facultyRoutes);
+router.use('/rooms', roomRoutes);
+router.use('/exams', examRoutes);
+router.use('/sessions', sessionRoutes);
+router.use('/registrations', registrationRoutes);
+router.use('/seat-allocations', seatAllocationRoutes);
+router.use('/invigilation', invigilationRoutes);
+router.use('/attendance', attendanceRoutes);
+router.use('/dashboard', dashboardRoutes);
 
 module.exports = router;

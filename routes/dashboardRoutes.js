@@ -9,4 +9,7 @@ router.use(verifyToken);
 // GET / - Get dashboard summary statistics
 router.get('/', dashboardController.getDashboardStats);
 
+// GET /upcoming - Get upcoming exam sessions with metrics
+router.get('/upcoming', dashboardController.getUpcomingSessions);
+
 module.exports = router;

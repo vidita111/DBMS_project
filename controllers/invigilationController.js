@@ -220,7 +220,10 @@ const getSessionInvigilators = asyncHandler(async (req, res) => {
 module.exports = {
   getAssignments,
   assignInvigilator,
+  createAssignment: assignInvigilator,
   bulkAssign,
+  bulkCreateAssignments: bulkAssign,
   deleteAssignment,
   getSessionInvigilators,
+  getSessionAssignments: getSessionInvigilators,
 };

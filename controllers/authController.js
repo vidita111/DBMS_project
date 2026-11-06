@@ -22,8 +22,8 @@ const register = asyncHandler(async (req, res) => {
 
     const token = jwt.sign(
       { admin_id: result.insertId, username },
-      process.env.JWT_SECRET || 'default_secret',
-      { expiresIn: '24h' }
+      process.env.JWT_SECRET || 'exam_mgmt_jwt_secret_key_2026',
+      { expiresIn: process.env.JWT_EXPIRES_IN || '24h' }
     );
 
     res.status(201).json({
@@ -65,8 +65,8 @@ const login = asyncHandler(async (req, res) => {
 
   const token = jwt.sign(
     { admin_id: admin.admin_id, username: admin.username },
-    process.env.JWT_SECRET || 'default_secret',
-    { expiresIn: '24h' }
+    process.env.JWT_SECRET || 'exam_mgmt_jwt_secret_key_2026',
+    { expiresIn: process.env.JWT_EXPIRES_IN || '24h' }
   );
 
   res.json({

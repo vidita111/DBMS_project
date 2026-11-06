@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'exam_seating_secret_key';
+const JWT_SECRET = process.env.JWT_SECRET || 'exam_mgmt_jwt_secret_key_2026';
 
 /**
  * Middleware to verify JWT token from Authorization header.

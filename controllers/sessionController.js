@@ -312,6 +312,8 @@ module.exports = {
   updateSession,
   deleteSession,
   assignRoom,
+  addRoomToSession: assignRoom,
   removeRoom,
+  removeRoomFromSession: removeRoom,
   getSessionRooms,
 };

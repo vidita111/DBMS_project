@@ -185,6 +185,7 @@ const deleteRegistration = asyncHandler(async (req, res) => {
 module.exports = {
   getRegistrations,
   registerStudent,
+  createRegistration: registerStudent,
   bulkRegister,
   deleteRegistration,
 };
