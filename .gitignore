@@ -1,0 +1,8 @@
+.env
+node_modules/
+ca.pem
+*.log
+.DS_Store
+discover-schema.js
+test-connect.js
+
