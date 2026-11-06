@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Exam Seat Arrangement</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+<link rel="stylesheet" href="css/styles.css"></head><body>
+<div id="login">
+<svg viewBox="0 0 1300 620" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+<ellipse cx="130" cy="300" rx="110" ry="50" fill="#d6e49a"/><ellipse cx="1230" cy="290" rx="120" ry="45" fill="#d6e49a"/>
+<path d="M0 420 L260 345 L420 400 L560 360 L700 420 L1000 330 L1300 250 L1300 620 L0 620Z" fill="#5aa77a"/>
+<path d="M0 470 L180 400 L330 450 L520 420 L760 470 L1060 360 L1300 300 L1300 620 L0 620Z" fill="#4a9570"/>
+<path d="M850 620 L1000 380 L1110 320 L1300 330 L1300 620Z" fill="#3f8765"/>
+<path d="M0 540 L140 500 L300 540 L420 520 L420 620 L0 620Z" fill="#256a55"/>
+<path d="M1160 620 L1240 520 L1300 500 L1300 620Z" fill="#0f3d40"/>
+<path d="M0 600 Q300 560 520 600 T1000 600 T1300 590 L1300 620 L0 620Z" fill="#1d5c50"/>
+</svg>
+<form class="lcard" id="lf" autocomplete="off">
+<h1 id="lt">LOG IN</h1>
+<label for="role">Sign in as</label><select id="role"><option value="admin">Admin</option><option value="portal">Student / Invigilator</option></select>
+<label for="u">Username</label><input id="u" placeholder="Enter your username" autofocus>
+<label for="p">Password</label><div class="pw"><input id="p" type="password" placeholder="Enter your password"><button type="button" id="eye" aria-label="Show password">&#128065;</button></div>
+<div class="err" id="le"></div>
+<button class="go" id="lb">Sign In</button>
+<p><span id="lq">Don’t have an account?</span><a id="ls">Sign Up</a></p>
+</form></div>
+
+<div id="app"><aside id="side">
+<button class="dots" id="dots" aria-label="Toggle menu">&#8942;</button>
+<div class="usr"><div class="av"></div><b id="un">TEST</b></div>
+<nav id="nav"></nav><button class="out" id="out">Log Out</button></aside>
+<main id="main"></main></div>
+
+<script src="js/app.js"></script></body></html>

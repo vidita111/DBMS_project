@@ -1,0 +1,296 @@
+{
+  "rooms": [
+    {
+      "no": "M111",
+      "floor": 1,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M105",
+      "floor": 1,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M113",
+      "floor": 1,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M204",
+      "floor": 2,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M205",
+      "floor": 2,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M207",
+      "floor": 2,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M209",
+      "floor": 2,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M213",
+      "floor": 2,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "209",
+      "floor": 2,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "211",
+      "floor": 2,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "401",
+      "floor": 4,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "404",
+      "floor": 4,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "502",
+      "floor": 5,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "503",
+      "floor": 5,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "505",
+      "floor": 5,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "M229",
+      "floor": 1,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "M211",
+      "floor": 1,
+      "block": "M-George",
+      "seats": 30
+    },
+    {
+      "no": "403",
+      "floor": 3,
+      "block": "Ramanujan",
+      "seats": 30
+    },
+    {
+      "no": "506",
+      "floor": 4,
+      "block": "M-George",
+      "seats": 60
+    },
+    {
+      "no": "212",
+      "floor": 1,
+      "block": "M-George",
+      "seats": 60
+    },
+    {
+      "no": "619",
+      "floor": 5,
+      "block": "Ramanujan",
+      "seats": 60
+    }
+  ],
+  "exams": [
+    {
+      "date": "2023-07-12",
+      "time": "FN",
+      "sem": 3,
+      "branch": "CS",
+      "slot": "A",
+      "subject": "MAT203"
+    },
+    {
+      "date": "2023-07-12",
+      "time": "FN",
+      "sem": 3,
+      "branch": "CA",
+      "slot": "A",
+      "subject": "MAT203"
+    },
+    {
+      "date": "2023-07-12",
+      "time": "FN",
+      "sem": 3,
+      "branch": "AD",
+      "slot": "A",
+      "subject": "MAT203"
+    },
+    {
+      "date": "2023-07-12",
+      "time": "FN",
+      "sem": 3,
+      "branch": "EE",
+      "slot": "A",
+      "subject": "MAT201"
+    },
+    {
+      "date": "2023-07-12",
+      "time": "FN",
+      "sem": 3,
+      "branch": "EC",
+      "slot": "A",
+      "subject": "MAT201"
+    },
+    {
+      "date": "2023-07-12",
+      "time": "FN",
+      "sem": 3,
+      "branch": "ME",
+      "slot": "A",
+      "subject": "MAT201"
+    }
+  ],
+  "branches": [
+    "CS",
+    "CA",
+    "AD",
+    "EE",
+    "EC",
+    "ME",
+    "CE"
+  ],
+  "subjects": [
+    "MAT201",
+    "MAT203",
+    "ECT401",
+    "EET201",
+    "MET201",
+    "CET201",
+    "CST201"
+  ],
+  "invigilators": [
+    {
+      "id": "E1001",
+      "name": "Dr. Anita Menon",
+      "dept": "CS"
+    },
+    {
+      "id": "E1002",
+      "name": "Prof. Rajesh Kumar",
+      "dept": "EC"
+    },
+    {
+      "id": "E1003",
+      "name": "Dr. Sunil Varma",
+      "dept": "ME"
+    },
+    {
+      "id": "E1004",
+      "name": "Prof. Meera Nair",
+      "dept": "EE"
+    },
+    {
+      "id": "E1005",
+      "name": "Dr. Arun Pillai",
+      "dept": "CS"
+    },
+    {
+      "id": "E1006",
+      "name": "Prof. Kavya Iyer",
+      "dept": "CE"
+    },
+    {
+      "id": "E1007",
+      "name": "Dr. Vivek Sharma",
+      "dept": "EC"
+    },
+    {
+      "id": "E1008",
+      "name": "Prof. Lakshmi Das",
+      "dept": "ME"
+    },
+    {
+      "id": "E1009",
+      "name": "Dr. Rahul Thomas",
+      "dept": "EE"
+    },
+    {
+      "id": "E1010",
+      "name": "Prof. Sneha George",
+      "dept": "CS"
+    },
+    {
+      "id": "E1011",
+      "name": "Dr. Manoj Pillai",
+      "dept": "CE"
+    },
+    {
+      "id": "E1012",
+      "name": "Prof. Divya Menon",
+      "dept": "EC"
+    }
+  ],
+  "student_names": {
+    "first": [
+      "Aarav",
+      "Anjali",
+      "Arjun",
+      "Devika",
+      "Gautham",
+      "Hari",
+      "Isha",
+      "Jithin",
+      "Kavya",
+      "Lakshmi",
+      "Midhun",
+      "Nandana",
+      "Rohit",
+      "Sneha",
+      "Vishnu",
+      "Anu",
+      "Akhil",
+      "Meera",
+      "Nikhil",
+      "Pooja"
+    ],
+    "last": [
+      "Nair",
+      "Menon",
+      "Pillai",
+      "Kumar",
+      "Varma",
+      "Das",
+      "Thomas",
+      "George",
+      "Iyer",
+      "Sharma"
+    ]
+  }
+}
